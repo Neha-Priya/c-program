@@ -3,19 +3,19 @@
 #include <stdlib.h>
 
 int main(){
-    int randomnumber,userInput;
-    randomnumber = rand() % 10;
+    int randomNumber,userInput;
+    randomNumber = rand() % 10;
     scanf("%d",&userInput);
-    while (userInput != randomnumber)
+    while (userInput != randomNumber)
     {
-        if(userInput > randomnumber){
+        if(userInput > randomNumber){
             printf("OOPS! You guessed too HIGh, guess somewhat LOW");
-        }else if(userInput < randomnumber){
+        }else if(userInput < randomNumber){
             printf("OOPS! You guessed too LOW, guess somewhat HIGh");
         }
     }
 
-    printf("Hurray! You guessed right - %d",randomnumber);
+    printf("Hurray! You guessed right - %d",randomNumber);
 
     return 0;
     
