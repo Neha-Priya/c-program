@@ -9,9 +9,9 @@ int main(){
     while (userInput != randomnumber)
     {
         if(userInput > randomnumber){
-            printf("Sorry! Your input is HIGH. Guess somewhat LOW");
+            printf("OOPS! You guessed too HIGh, guess somewhat LOW");
         }else if(userInput < randomnumber){
-            printf("Sorry! Your input is LOW. Guess somewhat HIGH");
+            printf("OOPS! You guessed too LOW, guess somewhat HIGh");
         }
     }
 
