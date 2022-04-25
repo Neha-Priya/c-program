@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-int main(){
+int main(){ 
     int randomNumber,userInput;
     randomNumber = rand() % 10;
     scanf("%d",&userInput);
