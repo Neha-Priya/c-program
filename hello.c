@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-
 int main(){
     int randomNumber,userInput;
     randomNumber = rand() % 10;
@@ -17,8 +16,5 @@ int main(){
 
     printf("Hurray! You guessed right - %d",randomNumber);
 
-    return 0;
-    
-    
-    
+    return 0;   
 }
